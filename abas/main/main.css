@@ -1,3 +1,104 @@
 body{
+    margin: 0%;
     background-color: #1c1b17;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 10px 20px;
+    margin: 0px;
+    background: linear-gradient(65deg, #ffa047, #f77e0d, #f77e0d, #950000);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nexum_logo_name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Art;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.navbar_top{
+    justify-items: center;
+    display: inline-flexbox;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.navbar_items{
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    width: 100%;
+}
+
+.search_bar{
+    display: inline-flexbox;
+    align-items: right;
+    justify-content: right;
+    padding-right: 30px;
+    width: 12%;
+}
+
+#search_input{
+    width: 280px;
+    padding: 16px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.welcome_message{
+    text-align: center;
+    margin-top: 130px;
+}
+
+#welcome_geral{
+    font-family: 'Arial', sans-serif;
+    font-size: 180px;
+    margin: -30px;
+    padding: 0;
+    position: relative;
+}
+
+.orange_welcome{
+    color: #f77e0d;
+}
+.welcome2{
+    color: #ffffff;
+    opacity: 0.4;
+}
+.welcome3{
+    color: #ffffff;
+    opacity: 0.15;
+}
+.welcome4{
+    color: #ffffff;
+    opacity: 0.03;
+}
+.welcome5{
+    color: #ffffff;
+    opacity: 0.01;
+}
+.welcome6{
+    color: #ffffff;
+    opacity: 0.006;
+}
+
+.image_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;  
+}
+.image1{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
