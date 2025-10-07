@@ -9,28 +9,30 @@
 <body>
     <header class="header">
         <div class="logo">
-            <!-- mudar logo para branca depois -->
-             <button id="Nexum" value="Nexum"><img src="nexumlogoblack.png" alt="Large white stylized capital letters N and X overlapping on a black background, representing the Nexum company logo, with a bold and formal tone" width="50"></button>
+             <a href="main.html"><img id="Nexum" value="Nexum" src="../assets/nexumlogo.png" alt="Large white stylized capital letters N and X overlapping on a black background, representing the Nexum company logo, with a bold and formal tone" width="50"></a>
 
             <span><h1 class="nexum_logo_name">Nexum</h1></span>
         </div>
 
         <nav class="navbar_top">
             <h1 id="navbar_items">
-                <span id="inicio_navbar"><a href="main.html">Início</a></span>
-                <span id="loja_navbar"><a href="loja.html">Loja</a></span>
-                <span id="sobre_navbar"><a href="sobre.html">Sobre</a></span>
+                <span class="navbar_links" id="inicio_navbar"><a href="main.html">Início</a></span>
+                <span class="navbar_links" id="loja_navbar"><a href="loja.html">Loja</a></span>
+                <span class="navbar_links" id="sobre_navbar"><a href="sobre.html">Sobre</a></span>
             </h1>
         </nav>
 
-        <div class="search_bar">
-            <input type="text" placeholder="Pesquisar..." id="search_input" name="search_input">
-            <span><button type="submit" id="submit_search" value="search">🔍</button></span>
-        </div>
+        <div class="navbar_items">
+            <div class="search_bar">
+                <input type="text" placeholder="Pesquisar..." id="search_input" name="search_input">
+                <span><button type="submit" id="submit_search" value="search"><img src="../assets/magnifying-glass-16.png" alt="magnifying glass to search" width="60px"></button></span>
+            </div>
 
-        <div class="user_icon">
-            <button type="submit" id="user_button" name="user_button" value="user">user</button>
+            <div class="user_icon">
+                <button type="submit" id="user_button" name="user_button" value="user"><img src="../assets/icone-utilisateur.png" alt="your profile" width="60px"></button>
+            </div>
         </div>
+        
     </header>
     
 

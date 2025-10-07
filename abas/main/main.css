@@ -13,6 +13,33 @@ body{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.header .logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header.logo #Nexum{
+    height: 50px;
+    width: 50px;
+}
+
+.header .logo h1{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.header nav a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 30px;
+}
+
 .nexum_logo_name{
     font-size: 30px;
     font-weight: bold;
@@ -23,14 +50,14 @@ body{
 
 .navbar_top{
     justify-items: center;
-    display: inline-flexbox;
+    display: block;
     align-items: center;
     color: #ffffff;
     width: 100%;
 }
 
 .navbar_items{
-    display: inline-flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
@@ -51,6 +78,32 @@ body{
     border: none;
     border-radius: 25px;
     font-size: 16px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#submit_search{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+#user_button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.navbar_items{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    justify-content: space-between;
+    color: #ffffff;
+    width: 100%;
 }
 
 .welcome_message{
